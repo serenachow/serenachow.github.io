@@ -1,3 +1,5 @@
+/*MONTHLY*/
+
 #calendar-container{
 	margin-top: 100px;
 	margin-left: 200px;
@@ -32,6 +34,11 @@
 }
 
 #months{
+	margin-left: 200px;
+	margin-top: 50px;
+}
+
+#title{
 	margin-left: 200px;
 	margin-top: 50px;
 }
@@ -82,6 +89,10 @@
     padding-left: 20px;
     color: #ffffff;
 
+}
+
+.td-item{
+	cursor: pointer;
 }
 
 /*HOME PAGE */
