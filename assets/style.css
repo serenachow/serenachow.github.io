@@ -1,3 +1,5 @@
+MONTHLY
+
 #calendar-container{
 	margin-top: 100px;
 	margin-left: 200px;
@@ -24,6 +26,37 @@
 	padding: 15px 20px;
 }
 
+#event-container{
+        width:100%;
+        height: 100%;
+        position: fixed;
+        z-index: 100;
+        display:none;
+        visibility: hidden;
+}
+
+#modal-overlay{
+    width:100%;
+    height: 100%;
+    background-color: black;
+    opacity:0.5;
+
+}
+
+#event-container{
+    background-color: #de6868;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 260px;
+    transform: translate(-50%,-50%);
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    color: #ffffff;
+
+}
 
 HOME PAGE 
 
@@ -122,9 +155,10 @@ background: transparent;
 margin: 0px;
 margin-bottom: 20px;
 width: 460px;
-font-size: 12px;
+font-size: 30px;
 font-weight: 700;
 color: white;
+font-family: 'Shadows Into Light';
 }
 
 .Username::-webkit-input-placeholder  {
@@ -141,7 +175,7 @@ padding: 10px;
 margin: 0px;
 margin-bottom: 20px;
 width: 50px;
-font-size: 12px;
+font-size: 30px;
 font-weight: 700;
 cursor: pointer;
 display: inline-block;
@@ -150,6 +184,7 @@ color: #5485BB;
 display: inline-block;
 float: right;
 margin-right: 40px;
+font-family: 'Shadows Into Light';
 }
 
 .button2  {
@@ -158,7 +193,7 @@ padding: 10px;
 margin: 0px;
 margin-bottom: 20px;
 width: 50px;
-font-size: 12px;
+font-size: 30px;
 font-weight: 700;
 cursor: pointer;
 display: inline-block;
@@ -167,6 +202,7 @@ color: #5485BB;
 display: inline-block;
 float: right;
 margin-right: 40px;
+font-family: 'Shadows Into Light';
 }
 
 
