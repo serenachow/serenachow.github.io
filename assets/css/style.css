@@ -1,0 +1,25 @@
+#calendar-container{
+	margin-top: 100px;
+	margin-left: 200px;
+}
+
+#months{
+	margin-left: 200px;
+	margin-top: 50px;
+}
+
+.sidebar-container {
+	position: fixed;
+	width: 280px;
+	height: 100%;
+	background-color: black;
+	-webkit-transform: translateX(-280px);
+	-webkit-transition: all 0.3s;
+}
+
+.sidebar-item {
+	font-weight: 700;
+	font-size: 16px;
+	color: white;
+	padding: 15px 20px;
+}
