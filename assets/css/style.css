@@ -20,8 +20,9 @@
 }
 
 #table {
-	margin-top: 150px;
-	margin-left: 400px;
+	margin-top: -50px;
+	margin-left: 30px;
+	margin-bottom: 50px;
 }
 
 
@@ -47,6 +48,10 @@
 
 .td-item{
 	cursor: pointer;
+	font-size: 50px;
+}
+
+.td-list{
 	font-size: 50px;
 }
 
