@@ -20,39 +20,39 @@
 
 	</head>
 	<body>
-		<div id="title">
-		Serena's Planner 
-		</div>
-		
-		<div id="months">
-			button previous 
-			April 2016
-			button next
-		</div>
 
+	<div class="top-bar">
+				<ul class="menu">
+					<li class="menu-item"> Home </li>
+					<li class="menu-item"> Monthly View </li>
+					<li class="menu-item"> To-Do </li>
+					<li class="menu-item"> Goals </li>
+				</ul>
+	</div>
+	
 
 		<div id="table">
 			<table border=3 cellspacing=10 cellpadding=10>
 			<tr>
-			<td align="center" colspan="7"><b>April 2016</b></td>
+			<td align="center" colspan="7" class="calendar"><b>April 2016</b></td>
 			</tr>
 
 			<tr>
-			<td align=center>Sunday</td>
-			<td align=center>Monday</td>
-			<td align=center>Tuesday</td>
-			<td align=center>Wednesday</td>
-			<td align=center>Thursday</td>
-			<td align=center>Friday</td>
-			<td align=center>Saturday</td>
+			<td align=center class="calendar">Sunday</td>
+			<td align=center class="calendar">Monday</td>
+			<td align=center class="calendar">Tuesday</td>
+			<td align=center class="calendar">Wednesday</td>
+			<td align=center class="calendar">Thursday</td>
+			<td align=center class="calendar">Friday</td>
+			<td align=center class="calendar">Saturday</td>
 			</tr>
 
 			<tr>
-			<td align=center></td>
-			<td align=center></td>
-			<td align=center></td>
-			<td align=center></td>
-			<td align=center></td>
+			<td align=center class="calendar"></td>
+			<td align=center class="calendar"></td>
+			<td align=center class="calendar"></td>
+			<td align=center class="calendar"></td>
+			<td align=center class="calendar"></td>
 			<td align=center class="td-item">1</td>
 			<td align=center class="td-item">2</td>
 			</tr>
@@ -96,12 +96,10 @@
 			<td align=center class="td-item">29</td>
 			<td align=center class="td-item">30</td>
 			</tr>
-
 		</div>
 
 
 		<div id="event-container">
-		<div id="modal-overlay"></div>
 			<div id="modal-box">
 			<div id="addev"><p>Add Event </p></div>
 			<input type = "event" class = "event" placeholder = "Enter Event" />
@@ -112,23 +110,6 @@
 			<div class = "button2"> Save <a></div>
 			</div></div>
 	</div>
-
-	  
-        <div id = "sidebar-button">
-            <a id="nav-toggle">
-                <span></span>
-            </a>
-        </div>
-
-       
-        <nav class = "sidebar-container">
-            
-            <ul>
-                <li class="sidebar-item">Home</li>
-                <li class="sidebar-item">Month</li>
-                <li class="sidebar-item">Goals</li>
-            </ul>
-        </nav>
 
       
 	
