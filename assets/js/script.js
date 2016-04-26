@@ -33,7 +33,19 @@ $(document).ready(function(){
     $("#event-container").css("visibility","hidden");
   });
 
+
+
+  $(".hover-menu").hover(function(){
+    $(this).css("font-weight","bold");
+    }, function(){
+      $(this).css("font-weight","normal");
+    });
    
+  $(".menu-item").hover(function(){
+    $(this).css("font-weight","bold");
+    }, function(){
+      $(this).css("font-weight","normal");
+    });
 
 
 
