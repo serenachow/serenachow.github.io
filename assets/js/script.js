@@ -25,6 +25,19 @@ $(document).ready(function(){
     $("#event-container").css("visibility","visible");
   });
 
+   $(".button1").click(function(){
+    $("#event-container").css("visibility","hidden");
+  });
+
+   $(".button2").click(function(){
+    $("#event-container").css("visibility","hidden");
+  });
+
+   
+
+
+
+
 
 
 
