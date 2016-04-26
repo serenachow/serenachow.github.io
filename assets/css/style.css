@@ -239,8 +239,21 @@ margin-right: 40px;
 font-family: 'Shadows Into Light';
 }
 
+/*GOALS*/
+th{
+	background-color: #de6868;
+	color:white;
+	border-bottom: none;
+	border-top: none;
+	border-collapse: collapse;
+}
 
-
+table, th, td{
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	border-bottom: none;
+}
 
 
 
